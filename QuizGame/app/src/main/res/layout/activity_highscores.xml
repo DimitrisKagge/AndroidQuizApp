@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photooo">
+
+    <TextView
+        android:id="@+id/highscoresTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/calistoga"
+        android:text="Highscores"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp" />
+
+    <Button
+        android:id="@+id/computerScienceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/highscoresTextView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lightblue"
+        android:textColor="#FFFFFF"
+        android:text="Computer Science"
+        android:onClick="loadComputerScienceHighscores" />
+
+    <Button
+        android:id="@+id/mathsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/computerScienceButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lightblue"
+        android:textColor="#FFFFFF"
+        android:text="Maths"
+        android:onClick="loadMathsHighscores" />
+
+    <Button
+        android:id="@+id/geographyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mathsButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lightblue"
+        android:textColor="#FFFFFF"
+        android:text="Geography"
+        android:onClick="loadGeographyHighscores" />
+
+    <TableLayout
+        android:id="@+id/highscoresTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geographyButton"
+        android:layout_marginTop="24dp"
+        android:padding="16dp">
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#033934"
+        android:text="Return"
+        android:textColor="#FFFFFF" />
+
+
+
+</RelativeLayout>

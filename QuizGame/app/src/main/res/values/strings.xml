@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SayHelloIntents1</string>
+    <string name="person_name">Your name</string>
+    <string name="say_hi">Say hello!</string>
+    <string name="say_hi_new_screen">Say hello in new screen!</string>
+    <string name="item_image_description" />
+    <string name="item_title" />
+    <string name="item_detail" />
+</resources>

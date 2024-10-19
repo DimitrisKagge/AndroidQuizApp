@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recycler_view" type="id" />
+    <item name="option_a_text" type="id" />
+    <item name="option_b_text" type="id" />
+    <item name="option_c_text" type="id" />
+</resources>
